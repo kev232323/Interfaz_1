@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Velez Quiroz CV</title>
+</head>
+<body>
+    <header>    
+        <h1>Kevin Velez Quiroz</h1>
+        <h2>Ex consumidor de café con leche</h2>
+        <hr>
+        <nav>   
+            <ol>    
+               <li><a href="index.html">Inicio</a></a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Gustavo_Cerati" target="_blank">Mi Razon de ser</a></a></li> 
+                <li><a href="experiencia.html">Experiencia</a></a></li>
+                <li><a href="estudios.html">estudios</a></a></li>
+                <li><a href="contacto.html">contacto</a></a></li>
+            </ol>
+        </nav>
+        <img src="img/Kevin_Quiroz4.png" alt="banner con el nombre de contacto y foto" width="100%" height="220px">
+        <audio controls>
+  <source src="media/Odio_a_mauro.m4a" type="audio/mpeg">
+  <source src="media/Odio_a_mauro.m4a" type="audio/ogg">
+  Tu navegador no soporta el elemento de audio.
+</audio>
+
+    </header>
+    <main>  
+    <form action="datos.js">
+          <table border="1">
+        <thead>
+            <tr>
+                <th colspan="3">Contacto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Nombre</td>
+                <td><input type="text" name="nombre" required></td>
+            </tr>
+             <tr>
+                <td colspan="2">Correo</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+             <tr>
+                <td colspan="2">Ciudad</td>
+                <td>
+                    <select name="ciudad" required>
+                        <option>Medellin</option>
+                        <option>Cali</option>
+                        <option>Cartagena</option>
+                        <option>bogotá</option>
+                        <option>Bucaramanga</option>
+                        <option>Barranquilla</option>
+                    </select>
+                </td>
+                
+            </tr>
+             <tr>
+                <td colspan="2">Mensaje</td>
+                <td><textarea name="mensaje" rows="5" required></textarea></td>
+            <tr>    
+                <td colspan="2">sexo</td>
+                     <td><input type="radio" id="hombre" name="drone" value="hombre" checked />
+            <label for="hombre">hombre</label>
+             <input type="radio" id="Mujer" name="sexo" value="Mujer" checked />
+            <label for="Mujer">Mujer</label>
+                     </td>
+            </tr>
+                </tr>
+                <tr>
+                    <td colspan="2">Intereses</td>
+                    <td>
+                    <input type="checkbox" id="Videojuegos" name="videojuegos" checked/>
+                    <label>Videojuegos</label><br>
+                        
+                    <input type="checkbox" id="Estudiar" name="Estudiar" checked/>
+                    <label>Estudiar</label><br>
+
+                    <input type="checkbox" id="Musica" name="Musica" checked/>
+                    <label>Musica</label><br>
+                    
+                    <input type="checkbox" id="Consumir" name="Consumir" checked/>
+                    <label>Consumir</label><br>
+                    </td>
+                </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td><button type="submit">Enviar</button></td>
+            </tr>
+        </tbody>
+      </table>
+    </form>
+    </main>
+    <footer>    
+        <p>&copy; Todos los derechos reservados a las bolas mias - 2026.</p>
+    </footer>
+</body>
+</html>
